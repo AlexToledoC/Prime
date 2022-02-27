@@ -6,6 +6,9 @@ def es_primo(numero):
             continue
         if numero % i == 0:
             contador += 1
+            break
+        else:
+            continue
     if contador == 0:
         return True
     else:
